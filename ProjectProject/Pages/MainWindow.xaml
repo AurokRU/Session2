@@ -22,8 +22,8 @@
                             <RowDefinition/>
                         </Grid.RowDefinitions>
 
-                        <Border Margin="10" Background="Black" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Width="100"></Border>
-                        <TextBlock Margin="10" Text="{Binding Name}" Grid.Row="0" Grid.Column="1"></TextBlock>
+                        <Border Margin="10" Background="#040404" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Width="100"></Border>
+                        <TextBlock Foreground="Aqua" Margin="10" Text="{Binding Name}" Grid.Row="0" Grid.Column="1"></TextBlock>
                         <TextBlock Margin="10" Text="{Binding INN}" Grid.Row="1" Grid.Column="1"></TextBlock>
                         <TextBlock Margin="10" Text="{Binding TypeSuppliers}" Grid.Row="2" Grid.Column="1"></TextBlock>
 
